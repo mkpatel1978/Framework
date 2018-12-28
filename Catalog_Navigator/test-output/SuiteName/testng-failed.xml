@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [SuiteName]">
+  <test parallel="tests" name="Email This Page(failed)">
+    <classes>
+      <class name="com.catnav.scripts.home.testcases.RFISubmission">
+        <methods>
+          <include name="befortest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.catnav.scripts.home.testcases.RFISubmission -->
+      <class name="com.catnav.scripts.home.testcases.EmailThisPage">
+        <methods>
+          <include name="fnEmailThisPage" invocation-numbers="0"/>
+          <include name="befortest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.catnav.scripts.home.testcases.EmailThisPage -->
+    </classes>
+  </test> <!-- Email This Page(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

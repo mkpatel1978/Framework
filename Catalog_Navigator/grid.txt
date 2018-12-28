@@ -1,0 +1,18 @@
+D:\Catalog Navigator\Catalog_Navigator
+Project path->
+D:\Catalog Navigator\Catalog_Navigator
+
+Hub->
+java -Dwebdriver.chrome.driver=Catalog_Navigator\DriverFiles\chromedriver.exe -jar JarFiles/selenium-server-standalone-3.0.0-beta3.jar -role hub -hubConfig hub.json
+
+Node 1->
+java -Dwebdriver.chrome.driver=Catalog_Navigator\DriverFiles\chromedriver.exe -jar JarFiles/selenium-server-standalone-3.0.0-beta3.jar -role node -nodeConfig node1.json
+
+Node 2->
+java -Dwebdriver.chrome.driver=Catalog_Navigator\DriverFiles\chromedriver.exe -jar JarFiles/selenium-server-standalone-3.0.0-beta3.jar -role node -nodeConfig node2.json
+
+
+
+
+
+

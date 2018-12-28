@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-26T11:41:21Z" name="SuiteName" finished-at="2018-12-26T11:42:28Z" duration-ms="66856">
+    <groups>
+    </groups>
+    <test started-at="2018-12-26T11:41:21Z" name="Create Cluster" finished-at="2018-12-26T11:42:24Z" duration-ms="62845">
+      <class name="com.catnav.scripts.home.testcases.RFISubmission">
+        <test-method signature="RFIconfirmation(java.util.Hashtable)[pri:0, instance:com.catnav.scripts.home.testcases.RFISubmission@6d026701]" started-at="2018-12-26T17:11:22Z" name="RFIconfirmation" data-provider="getData" finished-at="2018-12-26T17:12:23Z" duration-ms="61291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CompanyName=cbplpautomation, RFIName=BataKrishna, Email=batakrishna.m@orioninc.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RFIconfirmation -->
+        <test-method is-config="true" signature="befortest()[pri:0, instance:com.catnav.scripts.home.testcases.RFISubmission@6d026701]" started-at="2018-12-26T17:11:22Z" name="befortest" finished-at="2018-12-26T17:11:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befortest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.catnav.scripts.home.testcases.RFISubmission@6d026701]" started-at="2018-12-26T17:12:23Z" name="quit" finished-at="2018-12-26T17:12:24Z" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.catnav.scripts.home.testcases.RFISubmission -->
+    </test> <!-- Create Cluster -->
+    <test started-at="2018-12-26T11:41:21Z" name="Email This Page" finished-at="2018-12-26T11:42:28Z" duration-ms="66856">
+      <class name="com.catnav.scripts.home.testcases.EmailThisPage">
+        <test-method signature="fnEmailThisPage(java.util.Hashtable)[pri:0, instance:com.catnav.scripts.home.testcases.EmailThisPage@78a773fd]" started-at="2018-12-26T17:11:22Z" name="fnEmailThisPage" data-provider="getData" finished-at="2018-12-26T17:12:27Z" duration-ms="65497" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{CompanyName=cbplpautomation, RecipientEmail=batakrishna.m@orioninc.com, YourEmail=batakrishna.m@orioninc.com, Breadcrumb=Order Submission > Order Submission Basic Navigation }]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='plp-container']/span/label"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SDF4-110-KRISHNA', ip: '10.254.105.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59198}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\BATAKR~1.MIS\AppData\Local\Temp\scoped_dir16684_18810}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a907aed3cf0d567bce49ffc5c5de483a
+*** Element info: {Using=xpath, value=.//*[@id='plp-container']/span/label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='plp-container']/span/label"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SDF4-110-KRISHNA', ip: '10.254.105.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59198}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\BATAKR~1.MIS\AppData\Local\Temp\scoped_dir16684_18810}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a907aed3cf0d567bce49ffc5c5de483a
+*** Element info: {Using=xpath, value=.//*[@id='plp-container']/span/label}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.catnav.scripts.home.common.Project_Common.reportFailure(Project_Common.java:234)
+	at com.catnav.scripts.home.common.Project_Common.gettheobject(Project_Common.java:160)
+	at com.catnav.scripts.home.common.Project_Common.verifyText(Project_Common.java:199)
+	at com.catnav.scripts.home.testcases.EmailThisPage.fnEmailThisPage(EmailThisPage.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnEmailThisPage -->
+        <test-method is-config="true" signature="befortest()[pri:0, instance:com.catnav.scripts.home.testcases.EmailThisPage@78a773fd]" started-at="2018-12-26T17:11:22Z" name="befortest" finished-at="2018-12-26T17:11:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befortest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.catnav.scripts.home.testcases.EmailThisPage@78a773fd]" started-at="2018-12-26T17:12:27Z" name="quit" finished-at="2018-12-26T17:12:28Z" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.catnav.scripts.home.testcases.EmailThisPage -->
+    </test> <!-- Email This Page -->
+  </suite> <!-- SuiteName -->
+</testng-results>

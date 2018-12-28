@@ -1,0 +1,13 @@
+<suite name="SuiteName" parallel="tests">
+	<test name="Email This Page" allow-return-values="true">
+		<classes>
+			<class name="com.catnav.scripts.home.testcases.EmailThisPage" />
+		</classes>
+	</test>
+	<test name="Create Cluster" allow-return-values="true">
+		<classes>
+			<class name="com.catnav.scripts.home.testcases.RFISubmission" />
+		</classes>
+	</test>
+</suite>
+
